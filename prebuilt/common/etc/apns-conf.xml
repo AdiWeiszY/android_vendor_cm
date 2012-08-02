@@ -20,6 +20,8 @@
 <!-- use empty string to specify no proxy or port -->
 <!-- This version must agree with that in apps/common/res/apns.xml -->
 <apns version="7">
+  <apn carrier="YouPhone Internet" mcc="425" mnc="14" apn="data.youphone.co.il" user="" password="" type="default,supl" />
+  <apn carrier="YouPhone MMS" mcc="425" mnc="14" apn="data.youphone.co.il" user="" password="" server="" mmsc="http://192.168.220.15/servlets/mms" mmsproxy="" mmsport="8080" type="mms" />
   <apn carrier="Cosmote GR" mcc="202" mnc="01" apn="Internet" type="default,supl" />
   <apn carrier="Cosmote GR MMS" mcc="202" mnc="01" apn="Mms" mmsc="195.167.65.220:8002" mmsproxy="10.10.10.20" mmsport="8080" type="mms" />
   <apn carrier="Cosmote Wireless Internet" mcc="202" mnc="01" apn="internet" type="default,supl" />
